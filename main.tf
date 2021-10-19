@@ -7,26 +7,15 @@ resource "aws_db_subnet_group" "default" {
   }
 }
 
-data "aws_security_group" "security_groups" {
-  for_each = toset(var.security_group_names)
-  name     = each.value
-}
-
 resource "aws_security_group" "allow_mysql" {
-  vpc_id = var.vpc_id
+  vpc_id = var.vpc.id
   name   = "allow-mysql-${var.identifier}"
-  ingress {
-    from_port       = 3306
-    protocol        = "tcp"
-    to_port         = 3306
-    security_groups = [for i, g in data.aws_security_group.security_groups : g.id]
-  }
 
   egress {
-    from_port       = 0
-    protocol        = "-1"
-    to_port         = 0
-    security_groups = [for i, g in data.aws_security_group.security_groups : g.id]
+    from_port   = 0
+    protocol    = "-1"
+    to_port     = 0
+    cidr_blocks = [var.vpc.cidr_block]
   }
 }
 
