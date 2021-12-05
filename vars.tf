@@ -51,3 +51,9 @@ variable "apply_immediately" {
   default     = false
   description = "Apply changes immediately or wait for next maintenance window"
 }
+
+variable "enhanced_monitoring" {
+  type        = bool
+  default     = false
+  description = "Enable enhanced monitor on the instance"
+}
