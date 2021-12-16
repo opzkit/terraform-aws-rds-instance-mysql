@@ -35,4 +35,5 @@ resource "aws_db_instance" "default" {
   allow_major_version_upgrade = true
   apply_immediately           = var.apply_immediately
   db_subnet_group_name        = aws_db_subnet_group.default.name
+  storage_encrypted           = var.storage_encrypted
 }
