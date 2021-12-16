@@ -30,9 +30,14 @@ variable "availability_zone" {
   description = "The availability zone where the instance shall be created"
 }
 
-variable "vpc" {
-  type        = object({ id : string, cidr_block : string })
-  description = "The VPC to create the cluster in"
+variable "vpc_id" {
+  type        = string
+  description = "VPC id create the cluster in"
+}
+
+variable "security_group_names" {
+  type        = list(string)
+  description = "List of security group names that should have access to the cache cluster"
 }
 
 variable "subnet_ids" {
