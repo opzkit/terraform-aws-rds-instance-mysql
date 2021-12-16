@@ -57,3 +57,9 @@ variable "enhanced_monitoring" {
   default     = false
   description = "Enable enhanced monitor on the instance"
 }
+
+variable "storage_encrypted" {
+  type        = bool
+  default     = true
+  description = "Enable storage encryption on the instance"
+}
