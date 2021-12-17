@@ -41,6 +41,7 @@ resource "aws_db_instance" "default" {
   username                    = var.master_username
   password                    = local.password
   monitoring_interval         = var.enhanced_monitoring ? 60 : 0
+  monitoring_role_arn         = var.enhanced_monitoring ? aws_iam_role.rds_enhanced_monitoring[0].arn : null
   maintenance_window          = "mon:02:00-mon:03:30"
   backup_window               = "03:30-05:00"
   backup_retention_period     = 14
