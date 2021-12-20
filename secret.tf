@@ -13,7 +13,7 @@ locals {
     DB_PASSWORD = local.password
     DB_NAME     = aws_db_instance.default.identifier
     DB_PORT     = aws_db_instance.default.port
-    DB_HOST     = aws_db_instance.default.endpoint
+    DB_HOST     = aws_db_instance.default.address
   }
   password = random_password.password.result
 }
