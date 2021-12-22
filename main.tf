@@ -51,4 +51,5 @@ resource "aws_db_instance" "default" {
   apply_immediately           = var.apply_immediately
   db_subnet_group_name        = aws_db_subnet_group.default.name
   storage_encrypted           = var.storage_encrypted
+  vpc_security_group_ids      = [aws_security_group.allow_mysql.id]
 }
