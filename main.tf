@@ -33,7 +33,9 @@ resource "aws_security_group" "allow_mysql" {
 
 resource "aws_db_instance" "default" {
   instance_class              = var.instance_type
+  engine                      = "mysql"
   engine_version              = var.mysql_version
+  allocated_storage           = var.allocated_storage
   max_allocated_storage       = 60
   skip_final_snapshot         = var.skip_final_snapshot
   identifier                  = var.identifier

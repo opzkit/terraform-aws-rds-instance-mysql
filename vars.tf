@@ -14,6 +14,12 @@ variable "instance_type" {
   default     = "db.t3.small"
 }
 
+variable "allocated_storage" {
+  type        = number
+  description = "Allocated storage for instance"
+  default     = 20
+}
+
 variable "mysql_version" {
   type        = string
   description = "The mysql version to use"
