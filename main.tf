@@ -33,7 +33,9 @@ resource "aws_security_group" "allow_mysql" {
 
 resource "aws_db_instance" "default" {
   instance_class              = var.instance_type
+  engine                      = "mysql"
   engine_version              = var.mysql_version
+  allocated_storage           = var.allocated_storage
   max_allocated_storage       = 60
   skip_final_snapshot         = var.skip_final_snapshot
   identifier                  = var.identifier
@@ -49,4 +51,5 @@ resource "aws_db_instance" "default" {
   apply_immediately           = var.apply_immediately
   db_subnet_group_name        = aws_db_subnet_group.default.name
   storage_encrypted           = var.storage_encrypted
+  vpc_security_group_ids      = [aws_security_group.allow_mysql.id]
 }

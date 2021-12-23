@@ -11,7 +11,7 @@ locals {
   secret_value = {
     DB_USERNAME = var.master_username
     DB_PASSWORD = local.password
-    DB_NAME     = aws_db_instance.default.identifier
+    DB_NAME     = var.db_name
     DB_PORT     = aws_db_instance.default.port
     DB_HOST     = aws_db_instance.default.address
   }
