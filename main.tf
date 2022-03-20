@@ -39,7 +39,7 @@ resource "aws_db_instance" "default" {
   max_allocated_storage       = 60
   skip_final_snapshot         = var.skip_final_snapshot
   identifier                  = var.identifier
-  name                        = var.db_name
+  db_name                     = var.db_name
   username                    = var.master_username
   password                    = local.password
   monitoring_interval         = var.enhanced_monitoring ? 60 : 0
