@@ -74,3 +74,21 @@ variable "storage_encrypted" {
   default     = true
   description = "Enable storage encryption on the instance"
 }
+
+variable "parameters" {
+  type        = map(string)
+  default     = {}
+  description = "parameter group overrides"
+}
+
+variable "kms_key_arn" {
+  type        = string
+  default     = null
+  description = "KMS key to use for encryption, pass null to use AWS default KMS encryption"
+}
+
+variable "performance_insights_retention_period" {
+  type        = number
+  default     = 7
+  description = "Performance insights retention period in days, 7 days is free of charge. Read more here: https://aws.amazon.com/rds/performance-insights/pricing"
+}
