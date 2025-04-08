@@ -31,11 +31,6 @@ variable "master_username" {
   description = "Username for master user"
 }
 
-variable "availability_zone" {
-  type        = string
-  description = "The availability zone where the instance shall be created"
-}
-
 variable "vpc_id" {
   type        = string
   description = "VPC id create the cluster in"
