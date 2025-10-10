@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.1](https://github.com/opzkit/terraform-aws-rds-instance-mysql/compare/v0.3.0...v0.3.1) (2025-08-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.3.0 ([#44](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/44)) ([22be612](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/22be612425334c43cc30db5a47b6a76515c75126))
+* **deps:** update actions/checkout action to v5 ([#45](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/45)) ([bc42c54](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/bc42c540e67bc83222ed096cd1e83a29b317e4ac))
+* **deps:** update actions/checkout digest to 08eba0b ([#43](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/43)) ([bb63b81](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/bb63b81c5f7d2dd686753d26b07e3006bcf575ec))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.100.0 ([#41](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/41)) ([90193ac](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/90193acc2bf5a0b072684b603cef2db813161e4a))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.5 ([#39](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/39)) ([87c6565](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/87c65653a293e483d6c1edf46307ed1bff3e255f))
+* **deps:** update pre-commit hook pre-commit/pre-commit-hooks to v6 ([#42](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/42)) ([ee08e1f](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/ee08e1fed614d9bf303bcc12c58b12a81a6e567e))
+
 ## [0.3.0](https://github.com/opzkit/terraform-aws-rds-instance-mysql/compare/v0.2.1...v0.3.0) (2025-06-19)
 
 
