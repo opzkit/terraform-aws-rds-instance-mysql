@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.4.0](https://github.com/opzkit/terraform-aws-rds-instance-mysql/compare/v0.3.1...v0.4.0) (2026-03-03)
+
+
+### Features
+
+* add backup retention period as a variable ([#122](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/122)) ([8cbf65f](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/8cbf65fb78558f96f7f9f1bd111ea696b62f990f))
+
+
+### Miscellaneous Chores
+
+* **deps:** update hashicorp/setup-terraform action to v4 ([#120](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/120)) ([ef210cb](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/ef210cbe0b36f7a61e831aa097b56663e89f2e72))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.31.1 ([#118](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/118)) ([31d3cbb](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/31d3cbb8944d863bf653959a3d5d449d602252da))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.46.6 ([#121](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/121)) ([413c6df](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/413c6dfd09c0a190e6d927c56ee3ca7d0dc5e59a))
+
 ## [0.3.1](https://github.com/opzkit/terraform-aws-rds-instance-mysql/compare/v0.3.0...v0.3.1) (2026-02-17)
 
 
