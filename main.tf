@@ -60,7 +60,7 @@ resource "aws_db_instance" "default" {
   monitoring_role_arn                   = var.enhanced_monitoring ? aws_iam_role.rds_enhanced_monitoring[0].arn : null
   maintenance_window                    = "mon:02:00-mon:03:30"
   backup_window                         = "03:30-05:00"
-  backup_retention_period               = 14
+  backup_retention_period               = var.backup_retention_period
   allow_major_version_upgrade           = true
   apply_immediately                     = var.apply_immediately
   db_subnet_group_name                  = aws_db_subnet_group.default.name
