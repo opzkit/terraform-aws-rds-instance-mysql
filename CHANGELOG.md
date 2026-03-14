@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.4.1](https://github.com/opzkit/terraform-aws-rds-instance-mysql/compare/v0.4.0...v0.4.1) (2026-03-14)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token action to v3 ([#127](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/127)) ([0a08631](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/0a0863162115d82913ca053b20d4457d236cb284))
+* **deps:** update actions/create-github-app-token digest to fee1f7d ([#125](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/125)) ([29adbbf](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/29adbbf08d5b8745087405132f8d88ff70172f9c))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.59.4 ([#123](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/123)) ([9d96d4a](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/9d96d4a636ce8f36fddafd64392b4e228741e6d9))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.2 ([#126](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/126)) ([2ff9e75](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/2ff9e7522277d52a7b9f45fd424c2c565ff88821))
+
 ## [0.4.0](https://github.com/opzkit/terraform-aws-rds-instance-mysql/compare/v0.3.1...v0.4.0) (2026-03-03)
 
 
