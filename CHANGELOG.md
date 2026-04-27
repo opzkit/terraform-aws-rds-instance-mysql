@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.4.1](https://github.com/opzkit/terraform-aws-rds-instance-mysql/compare/v0.4.0...v0.4.1) (2026-04-27)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token action to v3 ([#127](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/127)) ([0a08631](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/0a0863162115d82913ca053b20d4457d236cb284))
+* **deps:** update actions/create-github-app-token digest to 1b10c78 ([#133](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/133)) ([ffca0ce](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/ffca0cea7d5ce8fb428859714510d8449386dfe0))
+* **deps:** update actions/create-github-app-token digest to 7bd0371 ([#132](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/132)) ([c0a715c](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/c0a715ca26a3ac4fbb79e91feec7f57d9d89c1ca))
+* **deps:** update actions/create-github-app-token digest to fee1f7d ([#125](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/125)) ([29adbbf](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/29adbbf08d5b8745087405132f8d88ff70172f9c))
+* **deps:** update googleapis/release-please-action action to v5 ([#137](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/137)) ([843e968](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/843e968e294ed0803bc7970acab88a8321e6ef25))
+* **deps:** update googleapis/release-please-action digest to 5c625bf ([#135](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/135)) ([b3a92be](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/b3a92be8ec7d7d77f734dda8da486f4f9e6b1454))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.104.4 ([#131](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/131)) ([97d4e66](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/97d4e663f564378449b66528b87bc5f924fbec4d))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.111.0 ([#134](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/134)) ([700dbea](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/700dbea4723616f40b8d12b1c0c28144a5a024d3))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.126.0 ([#136](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/136)) ([e78328f](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/e78328f817b8515a324569c2102a18f58be23c42))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.140.0 ([#138](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/138)) ([efd8eb0](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/efd8eb0a8b34097863d4e61c7252da3dd82c2d02))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.59.4 ([#123](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/123)) ([9d96d4a](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/9d96d4a636ce8f36fddafd64392b4e228741e6d9))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.76.2 ([#128](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/128)) ([69f3f26](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/69f3f267f74004ea4fbd7889f7359a0067c490aa))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.86.0 ([#129](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/129)) ([9b941b7](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/9b941b7ec90d677d7c0086aa401f8702919aa83a))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.99.1 ([#130](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/130)) ([829d880](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/829d88065a256c47ff0180bb18f754b2f0b67e36))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.2 ([#126](https://github.com/opzkit/terraform-aws-rds-instance-mysql/issues/126)) ([2ff9e75](https://github.com/opzkit/terraform-aws-rds-instance-mysql/commit/2ff9e7522277d52a7b9f45fd424c2c565ff88821))
+
 ## [0.4.0](https://github.com/opzkit/terraform-aws-rds-instance-mysql/compare/v0.3.1...v0.4.0) (2026-03-03)
 
 
